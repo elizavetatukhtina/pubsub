@@ -1,1 +1,1 @@
-# # Simple example of PubSub pattern. 
+# Simple example of PubSub pattern. 
