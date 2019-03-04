@@ -15,6 +15,9 @@ class Bus():
             for instance in self.rooms[room]:
                 instance(data)
 
+    def unsubscribe(self, room, who):
+        self.rooms[room].remove(who)
+
 
 class Subscriber():
     def __init__(self, name):
